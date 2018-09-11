@@ -1,0 +1,247 @@
+/**Iphone5 Portrite media query**/
+
+@media all and (max-width:320px){
+    .tetel-inner-page .innerpage-titel { font-size: 28px;}
+    section#home-form{padding: 30px 0;}
+    .footer-social li{ width:25px !important; height:33px!important; margin: 5px 2px;}    
+    .footer-social li i{    padding: 4px 10px !IMPORTANT;}
+    a.applybtn{    width: 100% !IMPORTANT;}
+    div#footer-email {padding: 65px 0 !important;}
+    .footer-menu #cssmenu > ul > li > a {  font-size: 11px !important;}
+    .footer-add-sec .row { margin: 0 !important;}
+    div#footer-address a, div#footer-email a {color: #000; font-size: 15px;}
+    section.copyright-section .row {margin: 0 !important;}
+    .text-copy {font-size: 12px;}
+    span.dtb {display: inline !important;}
+    h2.wlq-sec-titel{font-size: 26px !important;}
+    .wlqcont h1 {font-size: 20px !important;}
+
+}
+
+
+@media all and (min-width:321px) and (max-width:480px){
+    .footer-menu #cssmenu > ul > li > a { font-size: 13px !important;}
+    .text-copy{font-size: 14px !important;}
+
+}
+@media all and (max-width:480px){
+    .btbs{padding: 20px 0 !important;}
+    .bannereltable { height: 100% !important;}
+    a.applybtn{margin-top: 0  !important;}
+    ul.footer2social-sec li i{padding: 14px 10px !important; width: 46px !important; height: 46px !important;     font-size: 18px !important; }
+    ul.footer2social-sec li:last-child i{padding: 8px 18px !important; width: 46px !important; height: 46px !important;}
+    h2.srv-titelaa,h2.wlq-sec-titel, h2.tm-titele, .castady-titele {font-size: 30px !important;}   
+    .wlqcont h1 {font-size: 25px;}
+    .castady-level{ height: 339px;   background-size: contain;}
+    .case-dd h2 {font-size: 25px;}
+    a.tap-t-cl{width: 100%;}
+    .tetel-inner-page{    padding: 2rem;}
+    .tetel-inner-page .innerpage-titel{font-size: 30px;}
+    section.services-section {padding:30px 0 0 0;}
+    .popup .popuptext{    width: 345px;}
+    #banner{    height: 100% !important;}
+    .bannert1 {font-size: 25px !important;}
+    .bannert2{    font-size: 19px !important;}
+    #footer-email a{display: inline-block !important}
+    .footer-menu #cssmenu a{padding-left:4px !important; padding-right: 4px !important;}
+    .footer-add-sec .row { margin: 0 !important;}
+    .footer-menu #cssmenu ul{width:100% !important; margin: auto;}
+    span.dtb {display: block;}
+    .tetel-inner-page .innerpage-titel {font-size: 19px;}
+    .post-content-innerpage h1 {font-size: 19px !important;}
+    .post-content-innerpage h2 {font-size: 17px !important;}
+
+    h2.wlq-sec-titel{margin-bottom: 10px !important;}
+    .page-template-gallery .row, .contact-page-info .row{margin-left: 0 !important; margin-right: 0 !important;}
+    .contact-page-info { text-align: center;}
+    .border { border: 1px solid #dee2e6!important;  max-height: 78px;   margin-bottom: 5px !important;}
+    .ug-gallery-wrapper{width: 100% !important;}
+    .left-sec h2, .right-sec h2{ font-size: 32px  !important;}
+    .dg-wrapper,.dg-wrapper a{ width: 290px !important;}
+    .dg-wrapper a img{margin: 0}
+    .dg-container{height: 372px !important;}
+    section.testimonial-section .owl-buttons{    top: 31%!important;}
+    .dg-container nav{left: 44%!important; }
+    .title h2{font-size: 30px  !important;}
+    .socialmedia li{    width: 40px !important;    height: 40px !important;}
+    .faq-title .quize-titl{     font-size: 18px;   padding: 10px 27px 10px 10px!important;}
+    .collapse-close span.count, .collapse-open span.count{ display: none;}
+    .answer { padding:10px;  border-left: none;  margin-left: 0; }
+    .socialmedia li a{padding: 20%!important; }
+    
+} 
+
+
+
+/**Iphone landscape media query**/
+@media (min-width:481px) and (max-width:568px) {
+    .popup .popuptext{    width: 345px;}
+    #banner, .bannereltable {height:42vh !important;}
+    div#dblgrd-sectionB_gallery {margin-top: 10px;}
+    .page-template-gallery .row{margin: 0 !important;}
+
+}
+
+
+@media (min-width:569px) and (max-width:667px) {    
+    .footer-menu #cssmenu ul{width:64% !important; margin: auto;}
+    #banner,.bannereltable{height:42vh !important;}
+    div#dblgrd-sectionB_gallery {margin-top: 10px;}
+}
+
+@media (min-width:481px) and (max-width:667px) {  
+    #banner{    height: 100% !important;}
+    .bannert1 { font-size: 29px !important;}
+    .bannert2{    font-size: 19px !important;}
+    .btbs {padding: 20px 0 !important;}
+    #footer-email a{display: inline-block !important}
+    .footer-menu #cssmenu > ul > li > a { font-size: 13px !important;}
+    .footer-menu #cssmenu a{padding-left:4px !important; padding-right: 4px !important;}
+
+
+
+}
+/**Samsung s4 landscape media query**/
+@media (min-width:481px) and (max-width:767px) {
+    .btbs{padding: 20px 0;}
+    h2.srv-titelaa,h2.wlq-sec-titel, h2.tm-titele, .castady-titele {font-size: 30px !important;}   
+    .wlqcont h1 {font-size: 25px;}
+    .castady-level{ height: 339px;   background-size: contain;}
+    .case-dd h2 {font-size: 25px;}
+    a.tap-t-cl{width: 100%;}
+    .tetel-inner-page{    padding: 2rem;}
+    .tetel-inner-page .innerpage-titel{font-size: 30px;}
+    section.services-section {padding:30px 0 0 0;}
+    section#home-form, section.footer-section.footer-widget-area{    padding: 30px 0;}
+    .footer-add-sec .row { margin: 0 !important;}  
+    span.dtb { display: block;}
+    .bannert1 {font-size: 30px !important;}
+    .collapse-open .faqarrow, .collapse-close .faqarrow{    right: -22px;}
+
+
+}
+
+@media all and (min-width:668px) and (max-width:768px){
+    .bannert2{font-size: 25px !important;}
+    .bannert1 {font-size: 30px !important;}
+    #banner,.bannereltable{height:32vh !important;}
+
+} 
+@media all and (min-width:750px) and (max-width:768px){
+    #banner, .bannereltable {  height: 79vh !important;}
+}
+@media all and (min-width:736px) and (max-width:812px){
+    #banner, .bannereltable {  height: 79vh !important;}
+    .bannert1 {font-size: 25px !important;}
+    .bannert2{    font-size: 19px !important;}
+    section.gallery{    overflow: hidden;}
+}
+
+/**landscape media query**/
+@media all and (max-width:768px) {
+    .contact-page-info {text-align: center;}
+    section.welcome-section,section.services-section,section.testimonial-section,section.gallery {padding: 20px 0 !important;}
+    section.footer-section.footer-widget-area { padding: 20px 0 60px;}
+    #srvopt5 .leftsrv,#srvopt5 .rightsrv {text-align: center;}
+    #srvopt5 .srvcont { height: 100%;}
+    .text-copy{text-align: center;}
+    .col-12.wow.fadeInUp.wHighlight.animated.tmcontent-block.animated { overflow: hidden;}
+    section.testimonial-section .owl-prev{    left: 0;}
+    section.testimonial-section .owl-next{right: 0;}
+    div#toprightsec,div#toprightsecb{padding: 20px;}
+}
+
+/**Ipad mini landscape media query**/
+@media (min-width:769px) and (max-width:900px) {
+    .bannert1{font-size: 35px;}
+    #srvopt5 .srvicon{background-position: 48% 10px;background-size: 94%;}
+    #srvopt5:hover .srvicon {background-position: 48% 100%;}
+    div#srvopt5 .srvcont h2{font-size: 22px;}
+}
+@media (min-width:901px) and (max-width:1199px) {
+    .bannert1{font-size: 35px !important;}
+    #srvopt5 .srvicon{background-position: 48% 10px;background-size: 94%;}
+    #srvopt5:hover .srvicon {background-position: 48% 100%;}
+    div#srvopt5 .srvcont h2{font-size: 22px;}
+    .left-sec h2, .right-sec h2 {font-weight: 700; font-size: 32px; margin-bottom: 8px;}
+    .left-sec p, .right-sec p{font-size: 15px; font-weight: 400; line-height: 1.8em;}
+    a.clc-link{padding: 5px 0;font-size: 14px;    margin: auto;}
+    div#toprightsec,div#toprightsecb{    padding: 10px;}
+    .phone_email_txt .phone {font-size: 33px !important;}
+    .singlegrid a.tmcont-d{    font-size: 1rem;}
+    section.innerpage.faqtext_sec{background-position: 57% 99%;}
+
+}
+@media all and (min-width: 1200px) and (max-width:1299px) {  
+
+}
+
+@media all and (min-width: 1300px) and (max-width:1399px) {  
+    div#toprightsec,div#toprightsecb{padding:22px !important;}
+}
+@media all and (min-width: 1400px) and (max-width:1499px) {  
+
+}
+
+@media all and (min-width: 1300px) and (max-width:1500px) {    
+    #cssmenu a{padding-left:2px !important; padding-right:2px !important; font-size: 14px !important;}
+    .bannert2 {font-size: 25px !important;}
+    .bannert1{font-size:38px !important;}
+    .left-sec h2, .right-sec h2{font-size: 30px !important; }
+    hr.dsborder{margin-top:56px;}
+    hr.dsborderc{margin-top:63px;}
+
+}
+
+
+@media (min-width: 1400px) and (max-width:1500px) {
+    #cssmenu a{padding-left: 5px !important; padding-right: 5px !important; font-size: 14px !important;}
+    .bannert1{font-size:39px !important;}
+    hr.dsborder{margin-top: 18px;}
+    hr.dsborderc{margin-top: 40px;}
+    .bannert2 {font-size: 25px !important;}
+    .left-sec h2, .right-sec h2{font-size: 30px !important; }
+    div#toprightsec,div#toprightsecb{padding:53px !important;}
+
+
+}
+
+/*============19.5" device media query================*/
+@media all and (min-width: 1501px) and (max-width:1600px) {  
+    div#toprightsec,div#toprightsecb{padding: 53.5px !important;}
+}
+@media all and (min-width: 1601px) and (max-width:1700px) {  
+    div#toprightsec,div#toprightsecb{padding: 66.5px !important;} 
+}
+@media all and (min-width: 1701px) and (max-width:1900px) {  
+    div#toprightsec,div#toprightsecb{padding: 79.5px !important;} 
+}
+/*============21" to 23" device media query================*/ 
+@media (min-width: 1701px) and (max-width:2000px) {
+
+}
+@media only screen and (min-width:1900px) {
+
+}
+/*============27" large device media query================*/ 
+@media only screen and (min-width: 2001px) {
+    .right-sec img,div#dblgrd-sectionB_gallerybb img{width: 100%;}
+    div#toprightsec,div#toprightsecb{    padding: 206px 106px !important;}
+}
+
+
+
+@-moz-document url-prefix() { 
+
+    @media (min-width: 1300px) and (max-width:1499px) {
+
+
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+}
+
+

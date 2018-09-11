@@ -1,0 +1,123 @@
+div.whiteOverlay { background: #000; opacity: 0.5 !important}div.jqmDialog {display: none; position: fixed; top: 7%; left: 28%; width: 600px; overflow: hidden; 
+font-family:verdana,tahoma,helvetica;}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+/* [[[ Title / Top Classes ]]] */
+div.jqmdTC { 
+  background: #0162a6; 
+  color: #fff;
+  padding: 13px 22px 15px 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+div.jqmdTL { background:  url(dialog/sprite.gif) no-repeat 0px -41px; padding-left: 3px;}
+div.jqmdTR { background: url(dialog/sprite.gif) no-repeat right 0px; * zoom: 1;}
+
+
+/* [[[ Body / Message Classes ]]] */
+div.jqmdBC {
+  	background: none repeat scroll 0 0 #FFFFFF;
+    overflow: auto;
+    padding: 10px;
+    width: auto;	margin-left:4px;
+}
+div.jqmdBL { background: url(dialog/bl.gif) no-repeat left bottom; }
+div.jqmdBR { background: url(dialog/br.gif) no-repeat right bottom; * zoom: 1 }
+
+div.jqmdMSG { color: #317895; }
+
+
+/* [[[ Button classes ]]] */
+input.jqmdX {
+  position: absolute;
+  right: -1px;
+  top: 7px;
+  padding: 0 0 0 19px;
+  height: 19px;
+  width: 0px;
+  background: url(../images/close.gif) no-repeat top left !important;
+  overflow: hidden;
+}
+input.jqmdX:hover {
+  background: url(../images/close.gif) no-repeat -19px left !important !important;
+}
+in
+input.jqmdXFocus {background-position: bottom left; outline: none;}
+
+div.jqmdBC button, div.jqmdBC input[type="submit"] {
+  margin: 8px 10px 4px 10px;
+  color: #777;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+div.jqmDialog input:focus, div.jqmDialog input.iefocus { }
+
+.short_input {
+    background: url("../images/form_boxes/short_input.gif") no-repeat scroll left top transparent;
+    float: left;
+    height: 32px;
+    position: relative;
+    width: 122px;
+   }
+   
+.short_input select {
+    border: medium none;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 112px;
+}
+p.title{
+    color: #fff;
+    display: inline;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0 10px;
+}
+th {
+    color: #000000;
+    font-family: helvetica,Arial;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 10px;
+    padding-top: 7px;
+    line-height: 20px
+}
+input#final_term{ font-weight: bold; font-family: helvetica,Arial; margin-top: 7px; color: #2974B3}
+
+
+table.calculator td{ padding: 0px !important }
+.form_box .middle div input.jqmClose{margin: 11px 10px 0 0 !important}
+a#close{ 
+	 background: url("../images/close_2.gif") no-repeat scroll left center transparent !important;
+    color: #779E00 !important;
+    display: block;
+    margin-top: 6px;
+    padding-left: 20px;
+    width: 165px;
+}
+
+.form_box label.info_holder{ width: 350px !important; padding: 2px 0 5px 38px; background: url(../images/info.png) left top no-repeat; }
+.form_box a#ex3aTrigger{color:#6ead0a !important; text-decoration:none; }
+	.form_box a#ex3aTrigger:hover{ text-decoration: underline}
+	
+table#hidden{ padding: 9px 0px; width: 100%; display: none; margin-top: 13px}
+table#hidden table td, table#hidden table th{ border: 1px solid #1490cc; border-bottom: none; border-right: none}
+table#hidden table td.last, table#hidden table th.last{ border-right: 1px solid #1490cc;}
+table#hidden table tr.last td{border-bottom: 1px solid #1490cc;}
+table#hidden th{ font-size: 12px; font-family: Arial, helvetica, sans-serif; text-align: center; padding: 0px !important}
+table#hidden th p{ padding: 8px 5px}
+table#hidden td{ padding: 0 10px; }
+table#hidden p{ font-size: 14px; color: #000; padding: 0px; line-height: 20px}
+
+table#hidden table td{text-align: center; font-size: 12px; padding: 8px 5px !important }
+table#hidden table{ margin: 10px 0px; width: 100%}
+table#hidden table p{ font-size: 12px;}
+
