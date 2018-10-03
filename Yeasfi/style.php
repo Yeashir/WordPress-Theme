@@ -53,7 +53,7 @@ $t1ftwit = cs_get_option('ban1fwidth');
 //header  OPtion-3
 
 $menupading = cs_get_option('padding_menu');
-var_dump($menupading);
+
 if (!empty($menupading)) {
     $top = $menupading["top"];
     $right = $menupading["right"];
