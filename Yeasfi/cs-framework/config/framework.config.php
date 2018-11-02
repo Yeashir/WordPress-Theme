@@ -704,15 +704,19 @@ $options[] = array(
                     ),
                 ),
                 array(
-                    'id' => 'srvpage',
-                    'type' => 'select',
-                    'title' => 'Select Field for Pages',
-                    'options' => 'pages',
-                    'class' => 'chosen',
-                    'attributes' => array(
-                        'placeholder' => 'Select a color',
-                        'multiple' => 'multiple',
-                        'style' => 'width: 600px;'
+                    'id' => 'unique_option_901',
+                    'type' => 'group',
+                    'title' => 'Group Field',
+                    'button_title' => 'Add New',
+                    'accordion_title' => 'Add New Field',
+                    'fields' => array(
+                        array(
+                            'id' => 'srvpage2',
+                            'type' => 'select',
+                            'title' => 'Select Field for Pages',
+                            'options' => 'pages',
+                            'class' => 'chosen',
+                        ),
                     ),
                 ),
                 array(
