@@ -45,7 +45,7 @@ style Your menu Here
 
 ## Theme Options: Home Page -
 Under Home Page You will find 10 Tab
-* Home Layout - 
-  In this section please Drag your desier Option form Deactive Section to Active Section
+* Home Layout - This section is mandatory, You can create your home page using Drag and Drop. In this section please Drag your desier Option form Deactive Section and Drop it in Active Section.
+* Banner - In this section you can set a height of your banner, can uplode an image or color as background, set banner text and description and a button 
 
 
