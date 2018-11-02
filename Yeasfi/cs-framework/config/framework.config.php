@@ -706,7 +706,7 @@ $options[] = array(
                 array(
                     'id' => 'unique_option_901',
                     'type' => 'group',
-                    'title' => 'Group Field',
+                    'title' => 'Select Pages',
                     'button_title' => 'Add New',
                     'accordion_title' => 'Add New Field',
                     'fields' => array(
