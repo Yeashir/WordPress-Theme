@@ -12,40 +12,36 @@
 
 // echo cs_get_option(); 
                     ?> </h2>  
-                <div class="row">
-
-                    <?php
-                    $pagename = cs_get_option('srvpage');
-                    $i = 1;
-                    $pont = 0;
-                    $locality = cs_get_option('addresslocality');
-
-                    foreach ($pagename as $page) {
-                        $args = array('page_id' => $page);
-                        $loop = new WP_Query($args);
-                        while ($loop->have_posts()) : $loop->the_post();
-                            $meta_data = get_post_meta(get_the_ID(), 'custom_page_options', true);
-                            $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID, 'thumbnail'));
-                            ?>
-
-                            <div id="option7srv" class="col-md-6 col-lg-3 col-sm-12 service7">
-                                <a class="" href="<?php echo get_permalink(); ?>">
-                                    <div class="text-center srvimg">
-                                        <img src="<?php echo $meta_data['image_2']; ?>" alt="<?php the_title(); ?> <?php echo $locality; ?>"/>
-                                    </div>
-                                    <div class="col-12 srv-txt">
-                                        <h2 class="white-text"><?php the_title(); ?></h2>
-                                    </div>
-                                </a>
-                            </div>
+<div class="row">
                             <?php
-                        endwhile;
-                        $i++;
-                        $pont ++;
-                    }
-                    ?>
-
-                </div>
+                            $page_items = cs_get_option('unique_option_901');                           
+                            if (!empty($page_items)) {
+                                foreach ($page_items as $item) {
+                                     $pgid = !empty($item['srvpage2']) ? $item['srvpage2'] : '';                                   
+                                    $args = array('page_id' => $pgid);                                   
+                                    $loop = new WP_Query($args);
+                                    while ($loop->have_posts()) : $loop->the_post();
+                                        $meta_data = get_post_meta(get_the_ID(), 'custom_page_options', true);
+                                        $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID, 'thumbnail'));
+                                        ?>                                       
+                                        <div id="option7srv" class="col-md-6 col-lg-3 col-sm-12 service7">
+                                            <a class="" href="<?php echo get_permalink(); ?>">
+                                                <div class="text-center srvimg">
+                                                    <img src="<?php echo $meta_data['image_2']; ?>" alt="<?php the_title(); ?> <?php echo $locality; ?>"/>
+                                                </div>
+                                                <div class="col-12 srv-txt">
+                                                    <h2 class="white-text"><?php the_title(); ?></h2>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <?php
+                                    endwhile;
+                                    $i++;
+                                    $pont ++;
+                                }
+                            }
+                            ?>
+                        </div>
             </div>
         </div>
     </div>
