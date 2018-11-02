@@ -40,3 +40,12 @@ Under Header Layout You will find 2 Tab
 * Header Style
 Choose your layout form Header Layout and style it using Header Style
 
+## Theme Options: Menu -
+style Your menu Here
+
+## Theme Options: Home Page -
+Under Home Page You will find 10 Tab
+* Home Layout - 
+  In this section please Drag your desier Option form Deactive Section to Active Section
+
+
