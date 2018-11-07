@@ -27,7 +27,7 @@ get_header();
             <div id="content-galarey" class="inner-content-div col-12">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>                      
                         <div class="post-content-innerpage">
-                            <?php the_content('<p class="serif">Read the rest of this page »</p>'); ?>
+                            <?php the_content('<p class="serif">Read the rest of this page Â»</p>'); ?>
                         </div>
 
                         <?php
@@ -56,9 +56,10 @@ get_header();
                     if (!empty($dfd)) {
                         $ids = explode(',', $dfd);
                         foreach ($ids as $id) {
-                            $attachment = wp_get_attachment_image_src($id, 'full');
+                           $attachment = wp_get_attachment_image_src($id, 'full');
+                                $thumb = wp_get_attachment_image_src($id, 'thumbnail');
                             ?>
-                            <img alt="<?php echo cs_get_option('keyword'); ?>" src="<?php echo $attachment[0]; ?>"  >
+                            <img alt="<?php echo cs_get_option('keyword'); ?>" src=" <?php echo  $thumb[0]; ?>" data-image="<?php echo $attachment[0]; ?>">
                             <?php
                         }
                     }
