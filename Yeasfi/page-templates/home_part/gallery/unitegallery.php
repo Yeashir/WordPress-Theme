@@ -23,8 +23,9 @@
                             $ids = explode(',', $dfd);
                             foreach ($ids as $id) {
                                 $attachment = wp_get_attachment_image_src($id, 'full');
+                                $thumb = wp_get_attachment_image_src($id, 'thumbnail');
                                 ?>
-                                <img alt="<?php echo cs_get_option('keyword'); ?>" src="<?php echo $attachment[0]; ?>"  >
+                                <img alt="<?php echo cs_get_option('keyword'); ?>" src=" <?php echo  $thumb[0]; ?>" data-image="<?php echo $attachment[0]; ?>"  >
                                 <?php
                             }
                         }
