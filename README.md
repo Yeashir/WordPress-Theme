@@ -44,8 +44,16 @@ Choose your layout form Header Layout and style it using Header Style
 style Your menu Here
 
 ## Theme Options: Home Page -
-Under Home Page You will find 10 Tab
+Under Home Page You will find Some Tab
 * Home Layout - This section is mandatory, You can create your home page using Drag and Drop. In this section please Drag your desier Option form Deactive Section and Drop it in Active Section.
-* Banner - In this section you can set a height of your banner, can uplode an image or color as background, set banner text and description and a button 
+* Banner - In this section you can set a height of your banner, can uplode an image or color as background, set banner text and description and a Action button 
+* Slider - In this section you need to on Slider by click Slider ON/OFF Button, If you want a Vartical Slider then on the button, and add Slider Element by clicking Add new button, You can on/off slider Controler button 
+* Service - Under Service section you can set background Image or color for section and section padding, under Service Sorter you can chose deferent layout. Then chose your service page form group field, Under Service Section Title set Title, font color, size, weight. 
+
+* Other Service - Smae as  Service Section
+* Welcome - In this section set background Image or color, Select a style, Set Section title, font color, size, width. Put the you want to show in welcome section, If you want Scorl style then set a height, if want read more button put redmore text in Read More section. For Read More Style no need to set height.
+* Testmonial - In this section set background Image or color, Select  a Style , Set Section title, font color, size, weight. Put your testmonial in Testmonial post type.
+* Gallery - Put your Section Title, Pick a style by Gallery Sorter, Set font color, size, weight for Section title,
+* Form - Put your Section Title,  Select a style and set background Image or color.
 
 
